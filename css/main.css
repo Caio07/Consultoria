@@ -6,45 +6,130 @@
 
 
 *{
- margin: 0; 
- padding: 0; 
- -moz-box-sizing: border-box;
- box-sizing: border-box; 
+     margin: 0; 
+     padding: 0; 
+     -moz-box-sizing: border-box;
+     box-sizing: border-box; 
 }
 
 body {
-	padding-top: 50px;
+
+    color: #2c3e50;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
     padding-bottom: 20px;
+
 }
 
+
+a {
+
+    text-decoration: none;
+}
+
+    a:hover, a:active, a:hover{
+
+        background: none;
+    }
+
+*:focus{
+
+    outline: none;
+}
+
+.container {
+
+  width: 960px;
+
+}
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+nav{
+
+  background: none;
+  font-size: 1.5em;
+  font-weight: 300;
+  height: 100px;
+  text-transform: uppercase; 
+  margin-left: 30px;
+
+}
+
+    nav .nav{
+
+        padding-top: 20px;
+        padding-left: 100px;
+    }
+
+    nav ul li a{
+
+        color: #2c3e50;
+
+    }
+
+    nav li~li { 
+
+    border-left: 1px solid #2c3e50; 
+}
 
 /* ==========================================================================
   HOME
    ========================================================================== */
 
+.main-content{
 
+    background: url('../img/bg.png');
+    background-repeat:no-repeat;
+    background-size: 100%;
+    padding-top: 0;
+}
+
+.jumbotron{
+
+    background: none;
+    padding-top: 150px;
+
+}
+
+    .jumbotron p{
+    
+        font-size: 3.3em;
+        font-weight: 100;
+
+    }
 
 .features{
 
-	position: relative;
-	height: 700px;
+	height: 400px;
 	width: 100%;
+
 }
 
-	.features .img-left{
-
-		position: absolute;
-		right:0;
-
-
-	}
 
     .features .text-box{
-        
-        margin-top: 20%;
-        padding-left: 80px;
+
+        background-color: #2c3e50;
+        color: #fff;
+        font-size: 2em;
+        font-weight: 100;
+        padding-top: 20px;
+        padding: 20px;
+
 
     }
+
+/* ==========================================================================
+  Footer
+   ========================================================================== */
+
+footer{
+
+    background-color: #2c3e50;
+    color: #fff;
+}
 /* ==========================================================================
    Media Queries
    ========================================================================== */
