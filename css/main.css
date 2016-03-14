@@ -12,11 +12,15 @@
      box-sizing: border-box; 
 }
 
-body {
+html, body{
+
+      font-size: 62.5%;
+}
+
+html, body {
 
     color: #2c3e50;
     font-family: 'Roboto', sans-serif;
-    font-size: 100%;
     padding-bottom: 20px;
 
 }
@@ -44,13 +48,47 @@ a {
 }
 
 /* ==========================================================================
+   General
+   ========================================================================== */
+
+.main-content{
+
+    background: url('../img/bg.png');
+    background-repeat:no-repeat;
+    background-size: 100%;
+    padding-top: 0;
+    height: auto;
+    padding-bottom: 100px;
+}
+
+.btn-outline{
+
+  border: 1px solid #56799c;
+  border-radius: 30px;
+  color: #56799c;
+  padding: 15px 20px;
+
+}
+
+  .btn-outline:hover{
+
+    text-decoration: none;
+    background: #56799c;
+    color: #fff;
+    -webkit-transition: background-color 0.3s ease-in;
+    -moz-transition: background-color 0.3s ease-in;
+    -o-transition: background-color 0.3s ease-in;
+    transition: background-color 0.3s ease-in;
+  }
+
+/* ==========================================================================
    Header
    ========================================================================== */
 
 nav{
 
   background: none;
-  font-size: 1.5em;
+  font-size: 1.6rem;
   font-weight: 300;
   height: 100px;
   text-transform: uppercase; 
@@ -79,32 +117,36 @@ nav{
   HOME
    ========================================================================== */
 
-.main-content{
-
-    background: url('../img/bg.png');
-    background-repeat:no-repeat;
-    background-size: 100%;
-    padding-top: 0;
-}
-
 .jumbotron{
 
     background: none;
     padding-top: 150px;
+    font-size: 1rem;
 
 }
 
     .jumbotron p{
     
-        font-size: 3.3em;
+        font-size: 3em;
         font-weight: 100;
 
     }
 
 .features{
 
-	height: 400px;
+  font-size: 1rem;
+	height: auto;
+  padding-bottom: 200px;
 	width: 100%;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+}
+
+  .features .row .col-md-6:first-child{
+
+  padding-left:0; 
 
 }
 
@@ -113,13 +155,29 @@ nav{
 
         background-color: #2c3e50;
         color: #fff;
-        font-size: 2em;
+        font-size: 2.6em;
         font-weight: 100;
-        padding-top: 20px;
-        padding: 20px;
-
-
+        margin-bottom: 30px;
+        padding: 20px;  
+        /*position: absolute;
+        top: 30px;   */
     }
+    
+    .features .btn-outline{
+      /*position: absolute;
+      bottom: 0;
+      left: 0;*/
+      font-size: 2.4em;
+      margin-left: 30px;
+    }
+
+    .features .img-right{
+
+      position: absolute;
+      right: -100px;
+    }
+
+
 
 /* ==========================================================================
   Footer
