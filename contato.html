@@ -24,52 +24,120 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <nav class="navbar navbar-fixed-top navbar-default" role="navigation">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html"><a class="navbar-brand" href="index.html"><img src="img/logo-innovation-time.png" alt="innovation time"/></a>
+    
+    <div class="main-content">
+      <nav class="navbar navbar-fixed-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img src="img/logo-innovation-time.png" alt="innovation time"/></a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="a-consultoria.html">A Consultoria</a></li>
+              <li><a href="como-funciona.html">Como funciona</a></li>
+              <li><a href="duvidas-frequentes.html">Dúvidas Frequentes</a></li>
+              <li><a href="contato.html">Contato</a></li>
+            </ul>
+          </div><!--/.navbar-collapse -->
         </div>
-        <div id="navbar" class="navbar-collapse collapse navbar-right">
-          <ul class="nav navbar-nav">
-            <li><a href="a-consultoria.html">A Consultoria</a></li>
-            <li><a href="como-funciona.html">Como funciona</a></li>
-            <li><a href="duvidas-frequentes.html">Dúvidas Frequentes</a></li>
-            <li><a href="contato.html">Contato</a></li>
-          </ul>
-        </div><!--/.navbar-collapse -->
+      </nav>
+    
+      <div id="contato">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-10">
+            <form>
+              <div class="row">
+                <div class="col-md-12 col-sm-12">
+                  <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Nome" required>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                  <div class="form-group">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" class="form-control" id="telefone" placeholder="(xx) xxxx-xxxx" required>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                  <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email" required>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                   <div class="form-group">
+                    <label for="cidade">Cidade/Estado</label>
+                    <input type="text" class="form-control" id="cidade" placeholder="Cidade/Estado" required>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                  <div class="form-group">
+                    <label for="empresa">Empresa</label>
+                    <input type="text" class="form-control" id="empresa" placeholder="Empresa" required>
+                  </div>
+                </div>
+                <div class="col-md-12 col-sm-12">
+                  <div class="form-group">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea class="form-control" rows="3" id="mensagem" required></textarea>
+                  </div>
+                </div>
+                <div class="col-md-12 col-sm-12">
+                  <button type="submit" class="btn-filled">Enviar</button>
+                </div>
+              </div>
+            </form>
+            </div>
+            <div class="col-md-6">
+              <img src="img/logo-big.png" alt="Logo Innovation Time"/ class="center-block">
+              <div class="contact-box">
+                <div class="item-box">
+                  <img src="img/thumb-mail-filled.png" alt="icone e-mail"/>
+                  <span class="contact-information"> consultoria@consultoria.com.br </span>
+                 </div> 
+                 <div class="item-box">
+                  <img src="img/thumb-phone-filled.png" alt="icone telefone"/>
+                  <span class="contact-information"> +55 11 2306 7681 </span>
+                 </div> 
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </nav>
+    </div>
 
 
 
-    <div class="container">
-      <footer>
-        <div class="row">
-          <div class="col-md-4">
-            <p>&copy; 2016 - Todos os direitos reservados.</p>
-          </div>
-          <div class="col-md-4">
-            <div>
-              <img src="img/thumb-mail.png" alt="E-mail"/>
-              <span>consultoria@consultoria.com.br</span>
+    <footer>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-4">
+              <p>&copy; 2016 - Todos os direitos reservados.</p>
             </div>
-            <div>
-              <img src="img/thumb-phone.png" alt="Telefone"/>
-              <span>+55 11 2306 7681</span>
+            <div class="col-md-4 contact">
+              <div>
+                <img src="img/thumb-mail.png" alt="E-mail"/>
+                <span>consultoria@consultoria.com.br</span>
+              </div>
+              <div>
+                <img src="img/thumb-phone.png" alt="Telefone"/>
+                <span>+55 11 2306 7681</span>
+              </div>
             </div>
-          </div>
-          <div class="col-md-4">
-            <p>Desenvolvido por:</p>
+            <div class="col-md-4">
+              <p>Desenvolvido por:</p>
+            </div>
           </div>
         </div>
       </footer>
-    </div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 

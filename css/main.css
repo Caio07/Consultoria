@@ -47,6 +47,11 @@ a {
 
 }
 
+#contato{
+
+  padding-top: 150px;
+}
+
 /* ==========================================================================
    General
    ========================================================================== */
@@ -84,7 +89,7 @@ a {
 .btn-filled{
   
   background: #56799c;
-  border: none;
+  border: 1px solid transparent;
   border-radius: 30px;
   color: #fff;
   padding: 15px 20px;
@@ -282,6 +287,55 @@ nav{
   margin-top: 70px;
 
 }
+
+/* ==========================================================================
+  Contato
+   ========================================================================== */
+
+#contato{
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+  #contato form .btn-filled{
+
+    border-radius: 25px;
+    background-color:#2d3e50;
+    font-weight: 500;
+  }
+
+  #contato form .btn-filled:hover{
+
+    background: none;
+  }
+
+
+label{
+  
+  font-weight: 500;
+ 
+}
+
+.contact-box{
+
+  margin-top: 45px;
+  margin-left: 45px;
+}
+
+  .contact-box .item-box:first-child{
+    
+    margin-bottom: 15px;
+  
+  }
+
+.contact-information{
+  
+  font-size: 1.2em;
+  margin-left: 15px;
+
+}
+
+
 /* ==========================================================================
   Footer
    ========================================================================== */
