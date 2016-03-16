@@ -47,7 +47,7 @@ a {
 
 }
 
-#contato{
+#contato, #faq{
 
   padding-top: 150px;
 }
@@ -335,6 +335,42 @@ label{
 
 }
 
+
+/* ==========================================================================
+  FAQ
+   ========================================================================== */
+
+#faq{
+
+  font-size: 1rem;
+}
+
+.box-title {
+  
+  background-color: #2d3e50;
+  padding: 20px;
+  width: 25%;
+  margin-bottom: 50px;
+
+}
+
+  .box-title h2{
+  
+  color: #fff;
+  
+}
+
+.panel-title{
+
+  font-size:2em;
+}
+
+.panel-body{
+
+  font-size: 1.8em;
+  color: #2c3e50;
+  font-weight: 300;
+}
 
 /* ==========================================================================
   Footer
