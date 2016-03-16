@@ -12,17 +12,13 @@
      box-sizing: border-box; 
 }
 
+
 html, body{
-
+      
+      color: #2c3e50;
+      font-family: 'Roboto', sans-serif;
       font-size: 62.5%;
-}
-
-html, body {
-
-    color: #2c3e50;
-    font-family: 'Roboto', sans-serif;
-    padding-bottom: 20px;
-
+      height: 100%;
 }
 
 
@@ -295,6 +291,8 @@ nav{
 #contato{
   font-size: 1.5rem;
   font-weight: 300;
+  height: auto;
+
 }
 
   #contato form .btn-filled{
@@ -343,6 +341,7 @@ label{
 #faq{
 
   font-size: 1rem;
+  height: auto;
 }
 
 .box-title {
@@ -377,11 +376,13 @@ label{
    ========================================================================== */
 
 footer{
-
+    
+    width: 100%;
     background-color: #2c3e50;
     color: #ccc;
     font-size: 1.2rem;
     font-weight: 300;
+    height: 95px;
     padding: 15px 0;
     padding-left: 80px;
     padding-right: 80px;
