@@ -43,7 +43,7 @@ a {
 
 }
 
-#contato, #faq,#a-consultoria{
+#contato, #faq,#a-consultoria, #como-funciona{
 
   padding-top: 150px;
 }
@@ -59,7 +59,7 @@ a {
     background-size: 100%;
     padding-top: 0;
     height: auto;
-    padding-bottom: 100px;
+
 }
 
 .btn-outline{
@@ -74,12 +74,12 @@ a {
   .btn-outline:hover{
 
     text-decoration: none;
-    background: #56799c;
+    background: #2c3e50;
     color: #fff;
-    -webkit-transition: background-color 0.5s ease-in-out;
-    -moz-transition: background-color 0.5s ease-in-out;
-    -o-transition: background-color 0.5s ease-in-out;
-    transition: background-color 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
   }
 
 .btn-filled{
@@ -97,10 +97,10 @@ a {
     border: 1px solid #56799c;
     text-decoration: none;
     color: #56799c;
-    -webkit-transition: background-color 0.5s ease-in-out;
-    -moz-transition: background-color 0.5s ease-in-out;
-    -o-transition: background-color 0.5s ease-in-out;
-    transition: background-color 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
   }
 /* ==========================================================================
    Header
@@ -292,7 +292,7 @@ nav{
   font-size: 1.5rem;
   font-weight: 300;
   height: auto;
-
+  margin-bottom: 150px;
 }
 
   #contato form .btn-filled{
@@ -398,8 +398,8 @@ label{
 
 .about-items{
 
-  font-size: 1.5em;
-  margin-bottom: 150px;
+  font-size: 1.8em;
+  margin-bottom: 100px;
 }
 
 .box-line{
@@ -441,14 +441,84 @@ label{
 
   font-size: 2em;
   margin-top: 100px;
+  padding-bottom: 100px;
+
 }
 
   .box-cta h2{
-    
-    font-weight: 500;
+
+    font-size: 2em;
+    font-weight: 300;
     margin-bottom: 50px;
   }
 
+/* ==========================================================================
+  Como funciona
+   ========================================================================== */
+
+#como-funciona{
+
+  font-size: 1rem;
+  height: auto;
+
+}
+
+  #como-funciona .box-cta{
+    background: url('../img/bg-cta.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: auto;
+    padding-bottom: 100px;
+    padding-top: 60px;
+  }
+
+
+  #como-funciona .btn-filled:hover{
+    
+    border: 1px solid #fff;
+    text-decoration: none;
+    color: #fff;
+  }
+
+.box-step{
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display:flex;
+}
+
+.step-image{
+
+    width: 300px;
+  }
+
+.left-image{
+
+  order: 2;
+}
+
+.left-text{
+
+  text-align: right;
+}
+
+  .step-text{
+    
+    margin: 3em;  
+    flex-grow: 1;
+    width: auto;
+  }
+  
+  .step-text p{
+
+    font-size: 2em;
+    font-weight: 300;
+    margin-top: 30px;
+  }
 
 /* ==========================================================================
   Footer
