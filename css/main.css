@@ -43,7 +43,7 @@ a {
 
 }
 
-#contato, #faq{
+#contato, #faq,#a-consultoria{
 
   padding-top: 150px;
 }
@@ -84,7 +84,7 @@ a {
 
 .btn-filled{
   
-  background: #56799c;
+  background: #2c3e50;
   border: 1px solid transparent;
   border-radius: 30px;
   color: #fff;
@@ -370,6 +370,85 @@ label{
   color: #2c3e50;
   font-weight: 300;
 }
+
+/* ==========================================================================
+  A Consultoria
+   ========================================================================== */
+
+#a-consultoria{
+
+  font-size: 1rem;
+  height: auto;
+
+}
+
+.introduction{
+
+  margin-bottom: 70px;
+  padding: 0 100px;
+
+}
+
+  .introduction h3{
+
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 3em;
+  }
+
+.about-items{
+
+  font-size: 1.5em;
+  margin-bottom: 150px;
+}
+
+.box-line{
+
+  margin-bottom: 50px;
+}
+
+
+.about-item-subtitle{
+
+  color: #2d3e50;
+  font-weight: 100;
+  margin-top: 20px;
+  width:230px;
+
+}
+
+.middle-text{
+
+  background: #2d3e50;
+  color: #fff;
+  font-size: 3.5em;
+  padding: 50px;
+  width: 100%;
+}
+
+  .middle-text p{
+    text-align: left;
+    font-weight: 300;
+    padding-right: 150px;
+  }
+
+  .middle-text h1{
+    font-style: italic;
+    font-weight: 300;
+  }
+
+.box-cta{
+
+  font-size: 2em;
+  margin-top: 100px;
+}
+
+  .box-cta h2{
+    
+    font-weight: 500;
+    margin-bottom: 50px;
+  }
+
 
 /* ==========================================================================
   Footer
