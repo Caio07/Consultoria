@@ -39,7 +39,7 @@ a {
 
 .container {
 
-  width: 960px;
+  max-width: 960px;
 
 }
 
@@ -146,6 +146,50 @@ nav{
     border-left: 1px solid #2c3e50; 
 }
 
+
+
+.navbar-toggle:hover {
+  background-color: #ddd;
+}
+.navbar-toggle .icon-bar {
+  background-color: #888;
+}
+
+
+@media only screen and (max-width: 998px){
+    
+    nav{
+
+      font-size: 1.2rem;
+    }
+
+      nav .nav{
+
+          padding-left: 0;
+  }
+
+      nav li~li { 
+
+        border-left: none;
+    }
+
+    
+}
+
+@media only screen and (max-width: 768px){
+
+.navbar-collapse{
+
+  margin-top: 50px;
+  background: rgba(255,255,255,.9);
+  box-shadow: 0px 2px 5px #ccc;
+}
+
+
+
+}
+
+
 /* ==========================================================================
   HOME
    ========================================================================== */
@@ -170,7 +214,7 @@ nav{
 
   font-size: 1rem;
 	height: auto;
-  padding-bottom: 200px;
+  padding-bottom: 20em;
 	width: 100%;
   position: relative;
   overflow-x: hidden;
@@ -184,8 +228,7 @@ nav{
 
 }
 
-
-    .home .text-box{
+  .home .text-box{
 
         background-color: #2c3e50;
         color: #fff;
@@ -195,6 +238,24 @@ nav{
         padding: 20px;  
         padding-left: 30px;
     }
+
+
+    @media only screen and (min-width : 768px) and (max-width : 992px) {
+
+      .home .text-box{
+
+        width: 100%;
+      }
+
+}
+
+  @media only screen and (max-width: 768px){
+
+    .home{
+
+      padding-bottom:10em; 
+    }
+  }
     
     .home .btn-outline{
       font-size: 2.4em;
@@ -220,7 +281,7 @@ nav{
 
   #features .subtitle{
     
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-weight: 600;
 
   }
@@ -233,11 +294,64 @@ nav{
 
 }
 
+@media only screen and (max-width: 992px){
+
+    .box-features{
+
+        margin-bottom: 4em;
+    }
+
+}
+
+@media only screen and (max-width: 480px){
+
+  .box-features{
+
+    height: 600px;
+  }
+}
+
+
+@media only screen and (max-width: 480px){
+
+      .box-features{
+
+        height: 800px;
+      }
+
+
+      .box-features img{
+        display: none;
+      }
+
+      .box-features h3{
+
+       margin-left: 0 !important;
+
+      }
+
+      .box-features .col-xs-10{
+
+        width: 100%;
+        padding-left: 0;
+
+      }
+}
+
   .box-features h3{
 
-    margin-left: 3.5rem;
+   margin-left: 2rem;
 
   }
+
+@media only screen and (min-width: 390px) and (max-width: 1366px){
+
+  .box-features h3{
+
+   margin-left: 5rem;
+
+  }
+}
 
   .box-features p{
 
@@ -317,9 +431,32 @@ label{
  
 }
 
+
+@media only screen and (max-width: 1024px){
+
+  #contato{
+
+    margin-bottom: 50px;
+  }
+
+  .contact-sidebar{
+
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 480px){
+    
+     .contact-sidebar{
+
+      font-size: 0.8em;
+     }
+
+}
+
 .contact-box{
 
-  margin-top: 45px;
+  margin-top: 4em;
   margin-left: 45px;
 }
 
@@ -356,6 +493,13 @@ label{
 
 }
 
+@media only screen and(max-width: 640px){
+
+  .questions{
+
+    max-width: 50%;
+  }
+}
   .box-title h2{
   
   color: #fff;
@@ -390,6 +534,24 @@ label{
   margin-bottom: 70px;
   padding: 0 100px;
 
+}
+
+@media only screen and (max-width: 390px){
+
+  .introduction{
+
+  margin-bottom: 70px;
+  padding: 0px;
+
+}
+
+  .about-item-subtitle{
+    font-size: 0.8em;
+  }
+
+  .about-items .col-xs-6{
+    width: 100%;
+  }
 }
 
   .introduction h3{
@@ -434,6 +596,15 @@ label{
     font-weight: 300;
     padding-right: 150px;
   }
+
+@media only screen and (max-width: 1024px){
+
+    .middle-text p{
+
+      padding-right: 0;
+
+    }
+}
 
   .middle-text h1{
     font-style: italic;
@@ -492,14 +663,24 @@ label{
   display: -moz-flex;
   display: -webkit-flex;
   display:flex;
+  flex-grow: 1;
 
 }
 
 .step-image{
 
     width: 300px;
+    flex-grow: 1;
+
   }
 
+@media only screen and (max-width:480px){
+
+  .step-image img{
+
+    width: 100%;
+  }
+}
 .left-image{
 
   order: 2;
@@ -539,6 +720,13 @@ footer{
     padding: 15px 0;
     padding-left: 80px;
     padding-right: 80px;
+}
+
+@media only screen and (max-width: 480px){
+
+  footer{
+    font-size: 0.9rem;
+  }
 }
 
   footer .contact div:first-child{
