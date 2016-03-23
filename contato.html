@@ -6,8 +6,9 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Innovation Time Consulting</title>
-        <meta name="description" content="Innovation Time Consulting">
+        <title>Contato | Innovation Time Consulting</title>
+        <meta name="description" content="Entre em contato conosco para realizar uma análise de sua empresa sem custo.">
+        <meta name="keywords" content="contato, email, onde encontrar">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,300italic' rel='stylesheet' type='text/css'>
@@ -52,46 +53,46 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6 col-sm-12 col-xs-12">
-              <form>
+              <form method="post" action="envia.php">
                 <div class="row">
                   <div class="col-md-12">
                     <div class="form-group">
                       <label for="nome">Nome</label>
-                      <input type="text" class="form-control" id="nome" placeholder="Nome" required>
+                      <input type="text" class="form-control" name="nome" id="nome" placeholder="Nome" required>
                     </div>
                   </div>
                   <div class="col-md-6 col-sm-12">
                     <div class="form-group">
                       <label for="telefone">Telefone</label>
-                      <input type="tel" class="form-control" id="telefone" placeholder="(xx) xxxx-xxxx" required>
+                      <input type="tel" class="form-control" name="telefone" id="telefone" placeholder="(xx) xxxx-xxxx" required>
                     </div>
                   </div>
                   <div class="col-md-6 col-sm-12">
                     <div class="form-group">
                       <label for="email">E-mail</label>
-                      <input type="email" class="form-control" id="email" placeholder="Email" required>
+                      <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
                     </div>
                   </div>
                   <div class="col-md-6 col-sm-12">
                      <div class="form-group">
                       <label for="cidade">Cidade/Estado</label>
-                      <input type="text" class="form-control" id="cidade" placeholder="Cidade/Estado" required>
+                      <input type="text" class="form-control" name="cidade" id="cidade" placeholder="Cidade/Estado" required>
                     </div>
                   </div>
                   <div class="col-md-6 col-sm-12">
                     <div class="form-group">
                       <label for="empresa">Empresa</label>
-                      <input type="text" class="form-control" id="empresa" placeholder="Empresa" required>
+                      <input type="text" class="form-control" name="empresa" id="empresa" placeholder="Empresa">
                     </div>
                   </div>
                   <div class="col-md-12 col-sm-12">
                     <div class="form-group">
                       <label for="mensagem">Mensagem</label>
-                      <textarea class="form-control" rows="3" id="mensagem" required></textarea>
+                      <textarea class="form-control" rows="3" name="mensagem" id="mensagem" required></textarea>
                     </div>
                   </div>
                   <div class="col-md-12 col-sm-12">
-                    <button type="submit" class="btn-filled">Enviar</button>
+                    <button type="submit" name="Submit" value="Submit" class="btn-filled">Enviar</button>
                   </div>
                 </div>
               </form>
@@ -136,6 +137,7 @@
             </div>
             <div class="col-md-4 col-sm-4 hidden-xs">
               <p>Desenvolvido por:</p>
+              <a href="http://www.caiovgoliveira.com.br" target="_blank">Caio Oliveira</a>
             </div>
           </div>
         </div>
@@ -147,5 +149,17 @@
         <script src="js/vendor/bootstrap.min.js"></script>
 
         <script src="js/main.js"></script>
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-75464359-1', 'auto');
+  ga('require', 'linkid');
+  ga('send', 'pageview');
+
+</script>
     </body>
 </html>

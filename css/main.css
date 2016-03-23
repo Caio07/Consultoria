@@ -670,7 +670,7 @@ label{
 .step-image{
 
     width: 300px;
-    flex-grow: 1;
+
 
   }
 
@@ -737,6 +737,15 @@ footer{
   footer .contact img{
 
     padding-right: 10px;
+  }
+
+footer a{
+  color: #fff;
+  font-weight: 500;
+}
+
+  footer a:hover, a:active, a:focus{
+    color: #fff;
   }
 /* ==========================================================================
    Media Queries
